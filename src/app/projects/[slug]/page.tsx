@@ -16,32 +16,41 @@ const montreal = localFont({
 
 const projects = {
   'belzin': {
-    title: 'Belzin',
-    year: '2025',
+    title: 'Polymarket Agent',
+    year: '2024',
     overview: 'AI-Agent Powered P2P Group Chat Betting platform built on Solana. The project leverages machine learning to provide intelligent betting suggestions and risk assessment.',
-    'live': 'https://belzin.fun',
-    'url' : 'https://github.com/shashank-100/polymarket-agent',
+    live: 'https://belzin.fun',
+    url: 'https://github.com/shashank-100/polymarket-agent',
     image: '/belzin.png',
     tools: ['Next.js', 'TypeScript', 'Rust', 'Prisma', 'PostgreSQL', 'solana/web3.js', 'Solana Wallet Adapter', 'Solana Actions']
   },
   'liquotic': {
-    title: 'Liquotic',
+    title: 'Swap NFT',
     year: '2024',
     'live': 'https://liquotic.xyz',
-    'url' : 'https://github.com/Shiva953/Liquotic',
-    overview: 'Liquotic lets you buy an NFT with any SPL-token(like USDC) rather than only SOL.',
+    'url' : 'https://github.com/shashank-100/swap-NFT',
+    overview: 'SwapNFT lets you buy an NFT with any SPL-token(like USDC) rather than only SOL.',
     image: '/liquotic.jpg',
     tools: ['Typescript', 'NextJS', 'Solana Actions', 'Prisma', 'PostgresSQL', 'Solana Wallet Adapter', 'solana/web3.js']
   },
   'openvest': {
-    title: 'Openvest',
+    title: 'TokenVest',
     year: '2024',
-    'live': 'https://token-vest-alpha.vercel.app/',
-    'url' : 'https://github.com/shashank-100/token-vest',
+    live: 'https://token-vest-alpha.vercel.app/',
+    url: 'https://github.com/shashank-100/token-vest',
     overview: 'Lets you create token vesting schedules for your company employees. Lock the supply into the company vault, and then choose the vest duration per choice.',
     image: '/openvest.png',
     tools: ['Typescript', 'NextJS', 'Anchor', 'Rust']
   },
+  'solwatch': {
+    title: 'SolWatch',
+    year: '2024',
+    live: 'https://github.com/shashank-100/SolWatch',
+    url: 'https://github.com/shashank-100/SolWatch',
+    overview: 'A fast Solana geyser plugin for real-time account monitoring and data streaming. Features include PostgreSQL storage for efficient querying, gRPC streaming for real-time updates, and support for both Anchor program accounts and user wallet assets.',
+    image: '/IMAGE 2025-06-14 12:51:4.png',
+    tools: ['Rust', 'PostgreSQL', 'gRPC', 'Solana Geyser Plugin', 'Anchor']
+  }
 }
 
 export default async function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {

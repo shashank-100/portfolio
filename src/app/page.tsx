@@ -132,7 +132,7 @@ export default function Home() {
                 </div>
                 <div className="space-y-1">
                   <div className="flex items-center justify-between">
-                    <h3 className={`text-xl text-white font-bold group-hover:text-white group-hover:underline group-hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.4)] ${montreal.className}`}>TokenSwap NFT</h3>
+                    <h3 className={`text-xl text-white font-bold group-hover:text-white group-hover:underline group-hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.4)] ${montreal.className}`}>Swap NFT</h3>
                     <span className="text-gray-400">2024</span>
                   </div>
                   <p className={`text-white/65 tracking-tight font-[400] text-[0.8rem] ${roboto.className}`}>
@@ -158,6 +158,27 @@ export default function Home() {
                   </div>
                   <p className={`text-white/65 tracking-tight font-[400] text-[0.8rem] ${roboto.className}`}>
                     Create Token Vesting Schedules for Company Employees
+                  </p>
+                </div>
+              </div>
+            </Link>
+            <Link href="https://github.com/shashank-100/SolWatch" className="group w-full max-w-[30rem]">
+              <div className="space-y-4">
+                <div className="relative w-full h-[250px] overflow-hidden rounded-lg">
+                  <Image
+                    src="/solclix.png"
+                    alt="SolWatch"
+                    fill
+                    className="object-cover image-glow opacity-80 hover:opacity-100 transition-opacity"
+                  />
+                </div>
+                <div className="space-y-1">
+                  <div className="flex items-center justify-between">
+                    <h3 className={`text-xl text-white font-bold group-hover:text-white group-hover:underline group-hover:drop-shadow-[0_0_6px_rgba(255,255,255,0.4)] ${montreal.className}`}>SolWatch</h3>
+                    <span className="text-gray-400">2024</span>
+                  </div>
+                  <p className={`text-white/65 tracking-tight font-[400] text-[0.8rem] ${roboto.className}`}>
+                    A fast Solana geyser plugin for real-time account monitoring and data streaming with PostgreSQL and gRPC
                   </p>
                 </div>
               </div>
