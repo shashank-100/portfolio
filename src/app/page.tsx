@@ -125,7 +125,7 @@ export default function Home() {
                 <div className="relative w-full h-[250px] overflow-hidden rounded-lg">
                   <Image
                     src="/liquotic.jpg"
-                    alt="TokenSwap NFT"
+                    alt="Swap NFT"
                     fill
                     className="object-cover image-glow opacity-80 hover:opacity-100 transition-opacity"
                   />
